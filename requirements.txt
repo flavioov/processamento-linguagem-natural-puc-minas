@@ -1,0 +1,6 @@
+langchain_huggingface
+langchain_core
+langchain-community
+langchain_text_splitters
+pypdf
+sentence_transformers

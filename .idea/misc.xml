@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.12 (gitlab-collector)" />
+  </component>
+  <component name="GitLabDefaultAccount">
+    <option name="defaultAccountId" value="2e201c4a-bacf-4692-b2f2-780918770be7" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (processamento-linguagem-natural-puc-minas)" project-jdk-type="Python SDK" />
+</project>
