@@ -1,6 +1,11 @@
+typing-extensions
+langchain
 langchain_huggingface
 langchain_core
 langchain-community
 langchain_text_splitters
+langgraph
+langchain-ollama
 pypdf
 sentence_transformers
+ipython

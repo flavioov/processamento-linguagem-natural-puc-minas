@@ -1,5 +1,5 @@
 import pathlib
-from embedding import get_vetorstore
+from vectorstore import get_vetorstore
 from langchain_huggingface import HuggingFaceEmbeddings
 from load_pdf import load_pdf, split
 from typing import List
@@ -7,18 +7,18 @@ from typing import List
 from langchain_core.documents import Document
 from langchain_core.runnables import chain
 
-@chain
-def _retriever(query: str, vectorstore) -> List[Document]:
-    return vectorstore.similarity_search(query, k=1)
+from langchain_ollama import OllamaEmbeddings
 
-if __name__ == "__main__":
-    embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+from ollama_agent import agent
+from langchain.tools import tool
+
+def init_vectorstore():
+    embedding_model = OllamaEmbeddings(model="llama3")
     vectorestore = get_vetorstore(embbedings_model=embedding_model)
-    file_path = pathlib.Path("../data/chapter-6-embedding.pdf")
 
     print("loading the pdf")
 
-    docs = load_pdf(file_path=file_path)
+    docs = load_pdf()
     print("splitting the pdf")
 
     split_docs = split(docs)
@@ -27,6 +27,17 @@ if __name__ == "__main__":
     ids = vectorestore.add_documents(documents=split_docs)
     print(f"Added {len(ids)} documents to the vectorstore")
     print(f"Ids:\n{ids}")
+
+    return vectorestore
+
+
+if __name__ == "__main__":
+    # agent
+    # init vectorstore
+
+    agent = agent()
+    vectorestore = init_vectorstore()
+
     print("Enter 'exit' to exit")
 
     while True:
@@ -34,6 +45,7 @@ if __name__ == "__main__":
         if query == "exit":
             print("Exiting...")
             break
+
         retriever = vectorestore.as_retriever(
             search_type="similarity",
             search_kwargs={"k": 3},
