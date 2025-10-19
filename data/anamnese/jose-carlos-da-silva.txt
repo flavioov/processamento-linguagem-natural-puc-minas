@@ -1,0 +1,267 @@
+================================================================================
+                            ANAMNESE MÉDICA
+================================================================================
+
+Hospital Municipal São Lucas - Ambulatório de Cardiologia
+Data: 15/10/2025
+Prontuário: 2025-10456
+
+================================================================================
+                       IDENTIFICAÇÃO DO PACIENTE
+================================================================================
+
+Nome: José Carlos da Silva
+Data de Nascimento: 15/03/1968 (57 anos)
+Sexo: Masculino
+CPF: 123.456.789-00
+Estado Civil: Casado
+Profissão: Motorista de caminhão (aposentado)
+Endereço: Rua das Flores, 234 - Jardim Primavera - São Paulo/SP
+Telefone: (11) 98765-4321
+Convênio: SUS
+
+================================================================================
+                          QUEIXA PRINCIPAL
+================================================================================
+
+"Doutor, estou com dor de cabeça frequente e sinto o coração acelerado."
+
+================================================================================
+                    HISTÓRIA DA DOENÇA ATUAL (HDA)
+================================================================================
+
+Paciente relata cefaleia há aproximadamente 3 meses, de caráter pulsátil,
+localizada em região occipital, intensidade 7/10, que piora no período
+matutino e ao final do dia.
+
+Sintomas associados:
+- Palpitações ocasionais após esforço físico moderado
+- Tontura leve ao levantar-se rapidamente
+- PA aferida em farmácia: 170/100 mmHg
+
+Nega:
+- Náuseas, vômitos, alterações visuais
+- Déficits neurológicos focais
+- Precordialgia, dispneia ou edema de membros inferiores
+
+================================================================================
+                   HISTÓRIA PATOLÓGICA PREGRESSA
+================================================================================
+
+DOENÇAS PRÉVIAS:
+- Hipertensão Arterial Sistêmica (8 anos) - uso irregular de medicação
+- Diabetes Mellitus tipo 2 (5 anos) - controlado com metformina
+- Dislipidemia mista (6 anos)
+- Obesidade grau I (IMC: 31,2 kg/m²)
+
+CIRURGIAS:
+- Colecistectomia videolaparoscópica (2018)
+- Hernioplastia inguinal direita (2015)
+
+INTERNAÇÕES:
+- Crise hipertensiva em 2019 (PA: 200/120 mmHg) - 3 dias
+
+ALERGIAS:
+- Nega alergias medicamentosas ou alimentares
+
+================================================================================
+                         MEDICAÇÕES EM USO
+================================================================================
+
+1. Losartana 50 mg - 1x/dia (manhã) - USO IRREGULAR
+2. Hidroclorotiazida 25 mg - 1x/dia (manhã) - USO IRREGULAR
+3. Metformina 850 mg - 2x/dia (almoço e jantar) - uso regular
+4. Sinvastatina 20 mg - 1x/dia (noite) - uso regular
+5. AAS 100 mg - 1x/dia (manhã) - iniciado há 2 anos
+
+================================================================================
+                         HISTÓRIA FAMILIAR
+================================================================================
+
+PAI: Falecido aos 68 anos (Infarto Agudo do Miocárdio)
+     História de HAS e Diabetes Mellitus
+
+MÃE: 82 anos, hipertensa
+     AVC isquêmico aos 75 anos (sequela motora leve em MSE)
+
+IRMÃOS: 2 irmãos, ambos hipertensos
+        Irmã com câncer de mama aos 55 anos (em remissão)
+
+================================================================================
+                      HÁBITOS DE VIDA
+================================================================================
+
+TABAGISMO:
+- Ex-tabagista: 1 maço/dia por 30 anos (30 anos-maço)
+- Cessou há 5 anos após diagnóstico de HAS
+
+ETILISMO:
+- Consumo social moderado: 2-3 cervejas aos finais de semana
+
+ATIVIDADE FÍSICA:
+- Sedentário após aposentadoria há 2 anos
+- Era ativo durante trabalho como motorista
+
+ALIMENTAÇÃO:
+- Dieta rica em carboidratos e sódio
+- Alto consumo de processados e embutidos
+- Baixa ingesta de frutas e verduras
+
+SONO:
+- Roncos noturnos intensos e sonolência diurna
+- Esposa refere episódios de apneia durante o sono
+
+================================================================================
+                           EXAME FÍSICO
+================================================================================
+
+ESTADO GERAL:
+Consciente, orientado, cooperativo, corado, hidratado, acianótico,
+anictérico, afebril
+
+SINAIS VITAIS:
+- PA: 162/98 mmHg (Hipertensão Estágio 2)
+- FC: 88 bpm
+- FR: 16 irpm
+- Temperatura: 36,5°C
+- Saturação O2: 97% (ar ambiente)
+- Peso: 92 kg
+- Altura: 1,72 m
+- IMC: 31,2 kg/m² (Obesidade Grau I)
+- Circunferência Abdominal: 105 cm (risco cardiovascular aumentado)
+
+CARDIOVASCULAR:
+- Ictus cordis palpável no 5º EICE, não desviado
+- Bulhas cardíacas rítmicas, normofonéticas em 2 tempos
+- Ausência de sopros ou extrassístoles
+- Pulsos periféricos simétricos e palpáveis
+- Ausência de edema de MMII
+
+RESPIRATÓRIO:
+- MVU sem ruídos adventícios
+- Expansibilidade torácica simétrica
+
+ABDOME:
+- Globoso, flácido, indolor à palpação
+- Ausência de visceromegalias
+- RHA presentes e normais
+- Cicatriz de colecistectomia bem cicatrizada
+
+NEUROLÓGICO:
+- Lúcido e orientado (Glasgow 15)
+- Pupilas isocóricas e fotorreagentes
+- Pares cranianos sem alterações
+- Força muscular preservada (grau V)
+- Reflexos presentes e simétricos
+
+================================================================================
+                   EXAMES COMPLEMENTARES SOLICITADOS
+================================================================================
+
+EXAMES LABORATORIAIS:
+- Hemograma completo
+- Glicemia de jejum e HbA1c
+- Ureia, Creatinina, Sódio, Potássio
+- Perfil lipídico completo (CT, HDL, LDL, TG)
+- TSH e T4 livre
+- Ácido úrico
+- Urina tipo I
+- Microalbuminúria
+
+EXAMES DE IMAGEM:
+- Eletrocardiograma de 12 derivações
+- Ecocardiograma transtorácico
+- Radiografia de tórax PA e perfil
+- Ultrassonografia de artérias renais com Doppler
+
+OUTROS:
+- MAPA de 24 horas
+- Polissonografia (investigação de SAOS)
+
+================================================================================
+                      HIPÓTESES DIAGNÓSTICAS
+================================================================================
+
+1. Hipertensão Arterial Sistêmica Estágio 2 descompensada (CID-10: I10)
+2. Diabetes Mellitus tipo 2 (CID-10: E11)
+3. Dislipidemia Mista (CID-10: E78.2)
+4. Obesidade Grau I (CID-10: E66.0)
+5. Suspeita de Síndrome da Apneia Obstrutiva do Sono (CID-10: G47.33)
+6. Cefaleia secundária à HAS (CID-10: R51)
+
+================================================================================
+                    CONDUTA E PLANO TERAPÊUTICO
+================================================================================
+
+MEDIDAS NÃO-FARMACOLÓGICAS:
+✓ Dieta DASH com restrição de sódio < 2g/dia
+✓ Meta: perda de 10% do peso em 6 meses
+✓ Atividade física: caminhada 30 min, 5x/semana
+✓ Reduzir/cessar etilismo
+✓ Técnicas de controle de estresse
+✓ Monitorização domiciliar da PA 2x/dia
+
+MEDIDAS FARMACOLÓGICAS:
+✓ Losartana 100 mg - 1 cp manhã (aumentar dose)
+✓ Anlodipino 5 mg - 1 cp manhã (adicionar)
+✓ Hidroclorotiazida 25 mg - 1 cp manhã (manter)
+✓ Metformina 850 mg - manter 2x/dia
+✓ Atorvastatina 40 mg - 1 cp noite (substituir sinvastatina)
+✓ AAS 100 mg - manter 1x/dia
+
+================================================================================
+                    HISTÓRICO DE ACOMPANHAMENTO
+================================================================================
+
+12/02/2017 - Diagnóstico de HAS
+             PA: 165/95 mmHg. Iniciado Losartana 50mg
+
+18/09/2018 - Colecistectomia
+             Pós-operatório sem intercorrências
+
+22/03/2019 - Internação por crise hipertensiva
+             PA: 200/120 mmHg. Adicionado HCTZ
+
+05/06/2020 - Diagnóstico de DM2
+             HbA1c: 7,8%. Iniciado Metformina
+
+14/11/2021 - Consulta de rotina
+             PA: 145/88 mmHg. HbA1c: 6,5%
+
+08/05/2023 - Aposentadoria
+             Ganho de peso progressivo
+
+28/02/2024 - Consulta com endócrino
+             Ajuste de metformina. Orientações dietéticas
+
+30/08/2024 - Retorno cardio
+             PA: 158/92 mmHg. Aderência irregular
+
+15/10/2025 - CONSULTA ATUAL
+             PA: 162/98 mmHg. Cefaleia e palpitações
+
+================================================================================
+                      PLANO DE ACOMPANHAMENTO
+================================================================================
+
+✓ RETORNO EM 15 DIAS
+  Reavaliação pressórica e ajuste medicamentoso
+
+✓ CONSULTA COM NUTRICIONISTA
+  Orientação dietética personalizada
+
+✓ AVALIAÇÃO DE EXAMES EM 30 DIAS
+
+✓ ENCAMINHAMENTO PARA PNEUMOLOGISTA
+  Se polissonografia confirmar SAOS
+
+✓ MONITORAMENTO CONTÍNUO
+  Consultas trimestrais após estabilização
+
+================================================================================
+
+Médico Responsável: Dr. Ricardo Mendes da Costa
+CRM-SP 123.456
+Cardiologista - RQE 12345
+
+Data: 15/10/2025

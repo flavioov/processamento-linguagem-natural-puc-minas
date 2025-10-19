@@ -1,0 +1,376 @@
+================================================================================
+                            ANAMNESE MÉDICA
+================================================================================
+
+Hospital das Clínicas - Serviço de Endocrinologia e Oncologia
+Data: 16/10/2025
+Prontuário: 2025-15789
+
+================================================================================
+                       IDENTIFICAÇÃO DO PACIENTE
+================================================================================
+
+Nome: Maria Fernanda Oliveira Santos
+Data de Nascimento: 22/07/1985 (40 anos)
+Sexo: Feminino
+CPF: 987.654.321-00
+Estado Civil: Divorciada
+Profissão: Professora de Ensino Fundamental
+Endereço: Av. Atlântica, 1500 Apt. 302 - Copacabana - Rio de Janeiro/RJ
+Telefone: (21) 99876-5432
+Convênio: Unimed
+
+================================================================================
+                          QUEIXA PRINCIPAL
+================================================================================
+
+"Doutora, encontraram um nódulo na minha tireoide e estou muito preocupada."
+
+================================================================================
+                    HISTÓRIA DA DOENÇA ATUAL (HDA)
+================================================================================
+
+Descoberta incidental de nódulo tireoidiano em ultrassonografia de rotina
+há 2 meses.
+
+CARACTERÍSTICAS DO NÓDULO:
+- Tamanho: 2,3 cm no lobo direito da tireoide
+- Aspecto: hipoecóico, margens irregulares, microcalcificações
+- TI-RADS 5 (alto risco de malignidade)
+
+SINTOMAS NOS ÚLTIMOS 6 MESES:
+- Sensação de "caroço" na região anterior do pescoço
+- Cansaço progressivo (últimos 4 meses)
+- Ganho de peso: 5 kg
+- Intolerância ao frio
+- Pele mais seca
+- Constipação intestinal
+- Palpitações esporádicas
+
+NEGA:
+- Disfagia, odinofagia ou rouquidão
+- Adenomegalias cervicais palpáveis
+- Perda de peso não intencional
+- Sintomas compressivos
+
+PAAF (Punção): Bethesda V - SUSPEITO DE MALIGNIDADE
+Resultado: Padrão citológico compatível com carcinoma papilífero de tireoide
+
+================================================================================
+                   HISTÓRIA PATOLÓGICA PREGRESSA
+================================================================================
+
+DOENÇAS PRÉVIAS:
+- Hipotireoidismo subclínico (2 anos) - sem tratamento até momento
+- Ansiedade generalizada (desde 2020) - em tratamento
+- Síndrome do Ovário Policístico (diagnosticada aos 28 anos)
+- Enxaqueca desde adolescência
+
+CIRURGIAS:
+- Cesárea (2015) - nascimento da filha
+
+INTERNAÇÕES:
+- Apenas para parto cesáreo
+
+ALERGIAS:
+- Alergia a dipirona (rash cutâneo)
+
+HISTÓRIA GINECOLÓGICA:
+- Menarca: 12 anos
+- Ciclos menstruais irregulares (SOP)
+- G1P1A0 (1 gestação, 1 parto, 0 aborto)
+- DUM: 28/09/2025
+- Usa anticoncepcional oral combinado
+- Último Papanicolau: 05/2025 (normal)
+
+================================================================================
+                         MEDICAÇÕES EM USO
+================================================================================
+
+1. Escitalopram 10 mg - 1x/dia (manhã) - Ansiedade
+2. Anticoncepcional oral (Etinilestradiol 30mcg + Drospirenona 3mg) - 1x/dia
+3. Polivitamínico - 1x/dia
+4. Naproxeno 500 mg - SOS (enxaqueca - uso esporádico)
+
+================================================================================
+                         HISTÓRIA FAMILIAR
+================================================================================
+
+MÃE: 65 anos
+     - Hipotireoidismo (em tratamento há 10 anos)
+     - Câncer de mama aos 58 anos (em remissão)
+
+PAI: 68 anos
+     - Hipertenso e diabético tipo 2
+
+AVÓ MATERNA: Falecida aos 72 anos (câncer de cólon)
+
+TIA MATERNA: ⚠️ IMPORTANTE
+     - Carcinoma papilífero de tireoide aos 45 anos
+     - Tireoidectomia total + radioiodoterapia
+
+IRMÃ: 35 anos, hígida
+
+HISTÓRIA FAMILIAR POSITIVA PARA:
+✓ Câncer de tireoide (tia materna)
+✓ Câncer de mama (mãe)
+✓ Doenças tireoidianas autoimunes (mãe)
+
+================================================================================
+                      HÁBITOS DE VIDA
+================================================================================
+
+TABAGISMO: Nunca fumou
+
+ETILISMO: Consumo social esporádico (1-2 taças de vinho/mês)
+
+ATIVIDADE FÍSICA:
+- Yoga 2x/semana
+- Caminhada 3x/semana (30 minutos)
+
+ALIMENTAÇÃO:
+- Dieta equilibrada
+- Boa ingestão de frutas e vegetais
+- Evita alimentos ultraprocessados
+- Aumento do apetite nos últimos meses
+
+SONO:
+- Dorme 7 horas/noite
+- Insônia inicial ocasional (ansiedade)
+- Melhora com escitalopram
+
+SITUAÇÃO SOCIAL:
+- Divorciada há 3 anos
+- Mora com filha de 10 anos
+- Trabalha como professora
+- Rede de apoio familiar presente
+- Diagnóstico causando ansiedade significativa
+
+================================================================================
+                           EXAME FÍSICO
+================================================================================
+
+ESTADO GERAL:
+Bom estado geral, consciente, orientada, cooperativa, eupneica, corada,
+hidratada, acianótica, anictérica, afebril
+
+SINAIS VITAIS:
+- PA: 118/76 mmHg
+- FC: 78 bpm
+- FR: 14 irpm
+- Temperatura: 36,4°C
+- Peso: 68 kg (ganho de 5kg em 4 meses)
+- Altura: 1,65 m
+- IMC: 25 kg/m² (Sobrepeso limítrofe)
+
+PESCOÇO/TIREOIDE:
+- Aumento de volume discreto em região cervical anterior
+- NÓDULO PALPÁVEL: ~2,5 cm em lobo direito
+  • Consistência endurecida
+  • Aderido a planos profundos
+  • Indolor à palpação
+- Lobo esquerdo: dimensões normais, sem nódulos
+- Ausência de adenomegalia cervical
+- Mobilidade da tireoide preservada à deglutição
+
+CARDIOVASCULAR:
+- Bulhas rítmicas e normofonéticas em 2 tempos
+- Ausência de sopros
+- Pulsos simétricos
+
+RESPIRATÓRIO:
+- MVU sem ruídos adventícios
+
+ABDOME:
+- Plano, flácido, indolor
+- Cicatriz de cesárea bem cicatrizada
+
+PELE:
+- Pele ressecada (especialmente MMII)
+- Cabelos quebradiços
+
+NEUROLÓGICO:
+- Reflexos diminuídos (2+/4+) - compatível com hipotireoidismo
+- Reflexo aquileu retardado bilateralmente
+- Força muscular preservada
+
+================================================================================
+                   EXAMES COMPLEMENTARES REALIZADOS
+================================================================================
+
+ULTRASSONOGRAFIA DE TIREOIDE (20/08/2025):
+- Tireoide aumentada de volume
+- Lobo direito: 5,8 x 2,5 x 2,3 cm
+- NÓDULO: 2,3 x 1,9 x 2,1 cm
+  • Hipoecóico
+  • Margens irregulares
+  • Mais alto que largo
+  • Microcalcificações presentes
+  • Vascularização central aumentada (Doppler)
+- TI-RADS 5 (ALTO RISCO DE MALIGNIDADE)
+- Ausência de linfonodomegalias cervicais
+
+PAAF - PUNÇÃO ASPIRATIVA (25/09/2025):
+Material adequado para análise
+Células epiteliais foliculares com atipia nuclear:
+- Núcleos aumentados
+- Pseudoinclusões nucleares
+- Cromatina em "vidro fosco"
+- Corpos psamomatosos presentes
+
+CONCLUSÃO: BETHESDA V - SUSPEITO DE MALIGNIDADE
+Padrão compatível com CARCINOMA PAPILÍFERO DE TIREOIDE
+
+EXAMES LABORATORIAIS (28/09/2025):
+- TSH: 8,2 μUI/mL (↑ Elevado - VR: 0,4-4,0)
+- T4 livre: 0,7 ng/dL (↓ Diminuído - VR: 0,8-1,8)
+- T3 livre: 2,1 pg/mL (↓ Levemente diminuído)
+- Anti-TPO: 385 UI/mL (↑ Muito elevado - VR: <35)
+- Anti-Tg: 245 UI/mL (↑ Muito elevado - VR: <40)
+- Tireoglobulina: 42 ng/mL (Normal)
+- Calcitonina: 3,2 pg/mL (Normal)
+- Cálcio total: 9,5 mg/dL (Normal)
+- Hemograma: Normal
+
+TC DE PESCOÇO COM CONTRASTE (05/10/2025):
+- Nódulo sólido no lobo direito: 2,4 cm
+- Calcificações puntiformes
+- Ausência de extensão extratireoidiana
+- Ausência de invasão de estruturas adjacentes
+- Traqueia centrada, sem compressão
+- Linfonodo nível VI: 0,8 cm (aspecto reativo)
+- Ausência de linfonodomegalias suspeitas
+
+================================================================================
+                      HIPÓTESES DIAGNÓSTICAS
+================================================================================
+
+1. CARCINOMA PAPILÍFERO DE TIREOIDE (Bethesda V) - CID-10: C73
+   Nódulo em lobo direito
+
+2. Hipotireoidismo primário - CID-10: E03.9
+
+3. Tireoidite de Hashimoto - CID-10: E06.3
+   (Anti-TPO e Anti-Tg elevados)
+
+4. Transtorno de Ansiedade Generalizada - CID-10: F41.1
+
+5. Síndrome do Ovário Policístico - CID-10: E28.2
+
+================================================================================
+                    ESTADIAMENTO CLÍNICO PRELIMINAR
+================================================================================
+
+TNM - AJCC 8ª edição:
+
+T: T2 (tumor > 2 cm, ≤ 4 cm, limitado à tireoide)
+N: N0 (ausência de metástases linfonodais)
+M: M0 (ausência de metástases à distância)
+
+ESTADIO: I (paciente < 55 anos: qualquer T, qualquer N, M0)
+
+PROGNÓSTICO: EXCELENTE
+Sobrevida > 95% em 10 anos para estádios iniciais
+
+================================================================================
+                    CONDUTA E PLANO TERAPÊUTICO
+================================================================================
+
+TRATAMENTO CIRÚRGICO:
+✓ TIREOIDECTOMIA TOTAL
+✓ Esvaziamento cervical central (nível VI) profilático
+✓ CIRURGIA AGENDADA: 10/11/2025
+
+RISCOS CIRÚRGICOS ORIENTADOS:
+- Lesão do nervo laríngeo recorrente (rouquidão)
+- Hipoparatireoidismo (transitório ou permanente)
+- Sangramento, infecção
+- Necessidade de reposição hormonal vitalícia
+
+PREPARO PRÉ-OPERATÓRIO:
+✓ Avaliação pré-anestésica
+✓ Laringoscopia (documentar mobilidade de pregas vocais)
+✓ Exames pré-operatórios: hemograma, coagulograma, função renal
+✓ ECG
+✓ Iniciar Levotiroxina 50 mcg/dia (tratamento do hipotireoidismo)
+
+PLANEJAMENTO PÓS-OPERATÓRIO:
+✓ Anatomopatológico confirmará diagnóstico final
+✓ Ajuste de levotiroxina para dose supressiva
+✓ Avaliação para radioiodoterapia adjuvante (se indicado)
+✓ Dosagem de tireoglobulina 6-8 semanas pós-cirurgia
+✓ Cintilografia de corpo inteiro (se indicada radioiodoterapia)
+✓ Seguimento com USG cervical e marcadores tumorais
+
+SUPORTE PSICOLÓGICO:
+✓ Encaminhada para psicologia oncológica
+✓ Manter escitalopram
+✓ Orientada sobre excelente prognóstico
+
+================================================================================
+                    HISTÓRICO DE ACOMPANHAMENTO
+================================================================================
+
+06/2023 - Diagnóstico de hipotireoidismo subclínico
+          TSH: 5,8. Conduta expectante
+
+01/2024 - Consulta de rotina
+          TSH: 6,5. Mantida observação
+
+20/08/2025 - USG de rotina
+             Descoberta de nódulo TI-RADS 5
+
+02/09/2025 - Consulta endocrinologia
+             Solicitada PAAF
+
+25/09/2025 - PAAF realizada
+             Bethesda V - Suspeito de malignidade
+
+28/09/2025 - Exames laboratoriais
+             TSH: 8,2. Anti-TPO e Anti-Tg elevados
+
+05/10/2025 - TC de pescoço
+             Nódulo 2,4cm sem extensão extratireoidiana
+
+16/10/2025 - CONSULTA ATUAL - Oncologia
+             Indicada tireoidectomia total
+
+10/11/2025 - CIRURGIA PROGRAMADA
+             Tireoidectomia total + esvaziamento central
+
+================================================================================
+                      PLANO DE SEGUIMENTO
+================================================================================
+
+PÓS-OPERATÓRIO IMEDIATO:
+✓ Monitorização de cálcio sérico e PTH
+
+6-8 SEMANAS PÓS-CIRURGIA:
+✓ Dosagem de TSH, T4 livre, tireoglobulina, anti-Tg
+✓ Ajuste de levotiroxina para TSH suprimido (<0,1 μUI/mL)
+
+3-6 MESES PÓS-OP:
+✓ USG cervical de controle
+
+PRIMEIRO ANO:
+✓ Consultas trimestrais
+✓ Dosagens de tireoglobulina
+✓ USG cervical semestral
+
+APÓS PRIMEIRO ANO:
+✓ Consultas semestrais (se sem evidência de doença)
+
+SEGUIMENTO VITALÍCIO:
+✓ Reposição de levotiroxina
+✓ Monitoramento de marcadores tumorais
+
+================================================================================
+
+Médica Responsável: Dra. Ana Paula Ferreira
+CRM-RJ 987.654
+Endocrinologia - RQE 54321
+Cirurgia de Cabeça e Pescoço - RQE 54322
+
+Data: 16/10/2025
+
+================================================================================

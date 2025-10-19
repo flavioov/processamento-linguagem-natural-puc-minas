@@ -1,0 +1,540 @@
+================================================================================
+                            ANAMNESE MÉDICA
+================================================================================
+
+Hospital Universitário - Serviço de Reumatologia
+Data: 17/10/2025
+Prontuário: 2025-23456
+
+================================================================================
+                       IDENTIFICAÇÃO DO PACIENTE
+================================================================================
+
+Nome: Camila Rodrigues de Almeida
+Data de Nascimento: 10/11/1992 (32 anos)
+Sexo: Feminino
+CPF: 456.789.123-00
+Estado Civil: Solteira
+Profissão: Designer Gráfica
+Endereço: Rua dos Inconfidentes, 890 Apt. 501 - Savassi - Belo Horizonte/MG
+Telefone: (31) 99123-4567
+Convênio: Amil
+
+================================================================================
+                          QUEIXA PRINCIPAL
+================================================================================
+
+"Doutora, estou com dores nas juntas, manchas no rosto e muito cansaço."
+
+================================================================================
+                    HISTÓRIA DA DOENÇA ATUAL (HDA)
+================================================================================
+
+INÍCIO DOS SINTOMAS: Há 8 meses
+
+SINTOMAS PRINCIPAIS:
+
+ARTRALGIA (8 meses):
+- Pequenas articulações das mãos (IFPs, MCFs) bilateralmente
+- Punhos e joelhos
+- Padrão inflamatório
+- Rigidez matinal: ~2 horas
+- Edema articular leve, sem rubor ou calor
+
+LESÕES CUTÂNEAS (4 meses):
+- Rash malar em "asa de borboleta"
+- Piora com exposição solar
+- Não descamativa
+- Fotossensibilidade cutânea acentuada
+- Queimaduras com breve exposição ao sol
+
+SINTOMAS SISTÊMICOS:
+- Astenia intensa e progressiva
+- Febre baixa intermitente (37,5-38°C) vespertina
+- Queda acentuada de cabelos (2 meses)
+- Áreas de rarefação capilar
+- Úlceras orais dolorosas recorrentes (1 mês)
+- Fenômeno de Raynaud nos dedos das mãos (1 mês)
+- Perda ponderal: 6 kg não intencional
+
+NEGA:
+- Artrite franca
+- Serosites
+- Sintomas neurológicos ou renais (sintomas clínicos)
+
+================================================================================
+                   HISTÓRIA PATOLÓGICA PREGRESSA
+================================================================================
+
+DOENÇAS PRÉVIAS:
+- Fotossensibilidade desde adolescência (sem diagnóstico)
+- Trombose Venosa Profunda em MID aos 28 anos (2020)
+  • Durante uso de anticoncepcional oral
+  • Tratada com anticoagulação por 6 meses
+- DOIS ABORTOS ESPONTÂNEOS:
+  • 2019: 1º trimestre (8 semanas)
+  • 2021: 1º trimestre (10 semanas)
+- Enxaqueca desde os 20 anos
+
+CIRURGIAS:
+- Nenhuma
+
+INTERNAÇÕES:
+- TVP de MID (2020) - 5 dias
+
+ALERGIAS:
+- Nega alergias medicamentosas
+- Fotossensibilidade cutânea acentuada
+
+HISTÓRIA GINECOLÓGICA:
+- Menarca: 13 anos
+- Ciclos regulares até início dos sintomas atuais
+- Últimos 2 meses: menstruação irregular com fluxo aumentado
+- G2P0A2 (2 gestações, 0 partos, 2 abortos no 1º trimestre)
+- DUM: 25/09/2025
+- Não usa contraceptivos hormonais desde TVP
+
+================================================================================
+                         MEDICAÇÕES EM USO
+================================================================================
+
+1. Ibuprofeno 600 mg - SOS (dor articular - uso frequente)
+2. Sumatriptano 50 mg - SOS (enxaqueca)
+3. Protetor solar FPS 60 - uso diário
+4. Ácido fólico 5 mg - 1x/semana (iniciado recentemente)
+
+================================================================================
+                         HISTÓRIA FAMILIAR
+================================================================================
+
+MÃE: 58 anos
+     - Artrite Reumatoide aos 50 anos (em uso de metotrexato)
+     - Hipotireoidismo
+
+PAI: 62 anos
+     - Hipertenso
+
+TIA MATERNA: ⚠️ MUITO IMPORTANTE
+     - LÚPUS ERITEMATOSO SISTÊMICO aos 35 anos
+     - Comprometimento renal e cutâneo
+     - FALECIDA aos 55 anos por complicações renais
+
+AVÓ MATERNA: História de "reumatismo" (sem diagnóstico definido)
+
+IRMÃO: 29 anos, hígido
+
+HISTÓRIA FAMILIAR POSITIVA PARA:
+✓ Lúpus Eritematoso Sistêmico (tia materna)
+✓ Artrite Reumatoide (mãe)
+✓ Doenças autoimunes tireoidianas
+
+================================================================================
+                      HÁBITOS DE VIDA
+================================================================================
+
+TABAGISMO: Nunca fumou
+
+ETILISMO: Não faz uso
+
+ATIVIDADE FÍSICA:
+- Anteriormente: Pilates 3x/semana + caminhada
+- Últimos 6 meses: INTERROMPEU devido à astenia e dores
+
+ALIMENTAÇÃO:
+- Dieta balanceada, sem restrições
+- Boa ingesta hídrica
+- Perda de apetite nos últimos meses
+
+SONO:
+- Dificuldade para iniciar sono (dor articular)
+- Sono não reparador
+- Acorda cansada
+
+EXPOSIÇÃO SOLAR:
+- Trabalha home office (maior parte do tempo)
+- Evita exposição solar
+- Usa protetor FPS 60 diariamente
+
+SITUAÇÃO SOCIAL:
+- Mora sozinha
+- Rede de apoio: pais e irmão próximos
+- Sintomas interferindo na produtividade no trabalho
+- Frustração e preocupação com diagnóstico
+
+================================================================================
+                           EXAME FÍSICO
+================================================================================
+
+ESTADO GERAL:
+Regular estado geral, consciente, orientada, cooperativa, aparentando fadiga,
+levemente descorada (+/4+), hidratada, acianótica, anictérica, subfebril
+
+SINAIS VITAIS:
+- PA: 125/82 mmHg
+- FC: 92 bpm (levemente aumentada)
+- FR: 16 irpm
+- Temperatura: 37,6°C (Subfebril)
+- Saturação O2: 98% (ar ambiente)
+- Peso: 54 kg (PERDA DE 6KG EM 8 MESES)
+- Altura: 1,62 m
+- IMC: 20,6 kg/m² (Normal limítrofe)
+
+PELE E ANEXOS:
+- RASH MALAR EM "ASA DE BORBOLETA" ⚠️
+  • Região malar bilateral
+  • Não descamativo
+  • Respeita sulco nasogeniano
+- Lesões eritematosas discóides em couro cabeludo
+- ALOPECIA CICATRICIAL em áreas
+- Rarefação capilar difusa
+- Fotossensibilidade em áreas expostas
+- FENÔMENO DE RAYNAUD em dedos das mãos
+- Livedo reticular em MMII
+
+CAVIDADE ORAL:
+- ÚLCERAS ORAIS indolores
+  • Mucosa jugal bilateral
+  • Palato duro
+  • 0,3-0,5 cm cada
+
+MUSCULOESQUELÉTICO:
+- Artralgia à palpação: IFPs, MCFs bilateralmente, punhos, joelhos
+- Edema articular leve em MCFs mão direita (2ª e 3ª)
+- Edema articular leve em punho esquerdo
+- Ausência de deformidades
+- Ausência de sinovite franca
+- Força muscular preservada (fadiga muscular presente)
+
+CARDIOVASCULAR:
+- Bulhas rítmicas, normofonéticas
+- Ausência de sopros, atrito pericárdico ou galopes
+- Pulsos simétricos
+
+RESPIRATÓRIO:
+- MVU sem ruídos adventícios
+- Ausência de atrito pleural
+
+ABDOME:
+- Plano, flácido, indolor
+- Ausência de visceromegalias
+
+NEUROLÓGICO:
+- Consciente e orientada
+- Pares cranianos sem alterações
+- Força preservada
+- Reflexos normais e simétricos
+- Sensibilidade preservada
+
+LINFONODOS:
+- Sem adenomegalias palpáveis
+
+================================================================================
+                   EXAMES COMPLEMENTARES REALIZADOS
+================================================================================
+
+EXAMES LABORATORIAIS (10/10/2025):
+
+HEMOGRAMA:
+- Hemoglobina: 10,2 g/dL (↓ Anemia leve)
+- Leucócitos: 3.200/mm³ (↓ LEUCOPENIA)
+- Linfócitos: 800/mm³ (↓ LINFOPENIA)
+- Plaquetas: 125.000/mm³ (↓ Leve plaquetopenia)
+
+MARCADORES INFLAMATÓRIOS:
+- VHS: 65 mm/h (↑↑ Muito elevado)
+- PCR: 18 mg/L (↑ Elevada)
+
+FUNÇÃO RENAL:
+- Creatinina: 0,9 mg/dL (Normal)
+- Ureia: 32 mg/dL (Normal)
+- TFG: 95 mL/min (Normal)
+
+FUNÇÃO HEPÁTICA:
+- ALT: 42 U/L (Levemente elevada)
+- AST: 38 U/L (Normal)
+
+EXAMES IMUNOLÓGICOS:
+
+FAN: 1:1280 ⚠️⚠️ FORTEMENTE POSITIVO
+     Padrão nuclear homogêneo e pontilhado
+
+Anti-dsDNA: 185 UI/mL (↑↑ MUITO ELEVADO - VR: <30)
+
+Anti-Sm: POSITIVO ⚠️ (Específico para LES)
+
+Anti-RNP: POSITIVO
+
+Anti-Ro/SSA: POSITIVO
+
+Anti-La/SSB: Negativo
+
+COMPLEMENTO:
+- C3: 62 mg/dL (↓ CONSUMIDO - VR: 90-180)
+- C4: 10 mg/dL (Limítrofe inferior - VR: 10-40)
+
+ANTICORPOS ANTIFOSFOLÍPIDES:
+- Anticardiolipina IgG: 45 GPL (↑ POSITIVO - VR: <20)
+- Anti-β2-glicoproteína I: 32 U/mL (↑ POSITIVO - VR: <20)
+- Anticoagulante lúpico: POSITIVO ⚠️
+
+URINA TIPO I (12/10/2025):
+- Proteinúria: ++ (0,5 g/L)
+- Hematúria: 10-15 hemácias/campo
+- Cilindros hialinos: 2-4/campo
+- Leucocitúria: 3-5/campo
+
+PROTEINÚRIA 24 HORAS:
+820 mg/24h (VR: <150 mg/24h)
+Proteinúria em faixa NÃO NEFRÓTICA
+
+ECOCARDIOGRAMA (13/10/2025):
+- FE: 65% (preservada)
+- Ausência de derrame pericárdico
+- Valvas normais
+
+RAIO-X DE TÓRAX (14/10/2025):
+- Normal
+- Ausência de derrame pleural
+
+================================================================================
+                      HIPÓTESES DIAGNÓSTICAS
+================================================================================
+
+1. LÚPUS ERITEMATOSO SISTÊMICO - CID-10: M32.1
+
+   CRITÉRIOS EULAR/ACR 2019: 32 PONTOS ✓
+   (Diagnóstico ≥ 10 pontos)
+
+   Critérios presentes:
+   ✓ FAN ≥ 1:80 (critério de entrada)
+   ✓ Febre (2 pontos)
+   ✓ Leucopenia (3 pontos)
+   ✓ Trombocitopenia (4 pontos)
+   ✓ Anti-dsDNA positivo (6 pontos)
+   ✓ Anti-Sm positivo (6 pontos)
+   ✓ Complemento baixo (3 pontos)
+   ✓ Rash malar (6 pontos)
+   ✓ Alopecia (2 pontos)
+   ✓ Úlceras orais (2 pontos)
+   ✓ Artrite poliarticular (6 pontos)
+   ✓ Proteinúria (4 pontos)
+   ✓ Fenômeno de Raynaud (2 pontos)
+
+2. SÍNDROME ANTIFOSFOLÍPIDE - CID-10: D68.61
+
+   Critérios de Sapporo/Sydney:
+   ✓ Clínicos: 2 abortos + TVP
+   ✓ Laboratoriais: Tripla positividade
+     - Anticardiolipina IgG +
+     - Anti-β2-GPI +
+     - Anticoagulante lúpico +
+
+   ⚠️ Necessário confirmar em 12 semanas
+
+3. Nefrite Lúpica (provável Classe II ou III inicial) - CID-10: M32.14
+
+4. Anemia de Doença Crônica - CID-10: D63.8
+
+5. Artrite Lúpica - CID-10: M32.19
+
+ATIVIDADE DA DOENÇA:
+SLEDAI-2K Score: 20 pontos
+(ATIVIDADE MODERADA A ALTA)
+
+================================================================================
+                    CONDUTA E PLANO TERAPÊUTICO
+================================================================================
+
+TRATAMENTO IMUNOSSUPRESSOR:
+
+✓ Prednisona 40 mg/dia (0,7 mg/kg/dia)
+  Dose única matinal
+  Redução gradual conforme resposta
+
+✓ Hidroxicloroquina 400 mg/dia
+  Dose de ataque por 1 mês
+  Depois 200 mg/dia manutenção
+
+✓ Metotrexato 15 mg/semana SC
+  Poupador de corticoide
+  Para artrite
+
+✓ Ácido fólico 5 mg/semana
+  48h após metotrexato
+
+ANTICOAGULAÇÃO (para SAF):
+
+✓ Varfarina
+  Alvo: INR 2-3
+  (considerar INR 3-4 se evento arterial)
+  ⚠️ CONTRAINDICADOS DOACs na SAF tripla positiva
+
+PROTEÇÃO GÁSTRICA:
+
+✓ Omeprazol 20 mg/dia em jejum
+
+SUPLEMENTAÇÃO:
+
+✓ Cálcio 1.200 mg/dia + Vitamina D 2.000 UI/dia
+  (prevenção osteoporose por corticoide)
+
+✓ Sulfato ferroso 40 mg Fe elementar 2x/dia
+  (tratamento anemia)
+
+MEDIDAS NÃO-FARMACOLÓGICAS:
+
+✓ FOTOPROTEÇÃO RIGOROSA:
+  - Protetor FPS ≥ 50 (reaplicar 2-3h)
+  - Roupas de manga longa, chapéu
+  - Evitar sol 10h-16h
+
+✓ DIETA:
+  - Rica em cálcio, vitamina D, ômega-3
+  - Controle de sódio (corticoide)
+
+✓ ATIVIDADE FÍSICA:
+  - Leve a moderada conforme tolerância
+  - Respeitar fadiga
+
+✓ VACINAÇÃO:
+  - Atualizar ANTES de imunossupressão intensa
+  - Evitar vírus vivo durante tratamento
+
+✓ CONTRACEPÇÃO:
+  - Métodos NÃO hormonais (DIU cobre, preservativo)
+  - Devido à SAF
+
+✓ PLANEJAMENTO GESTACIONAL:
+  - Apenas com doença controlada ≥ 6 meses
+  - Acompanhamento alto risco
+
+INVESTIGAÇÃO PROGRAMADA:
+
+✓ BIÓPSIA RENAL - 25/10/2025
+  Estadiamento da nefrite lúpica
+
+✓ Fundoscopia basal
+  Antes de hidroxicloroquina
+  Repetir anualmente
+
+✓ Densitometria óssea
+  Basal antes de corticoterapia
+
+✓ Repetir anticorpos antifosfolípides
+  Em 12 semanas (confirmar SAF)
+
+================================================================================
+                    HISTÓRICO DE ACOMPANHAMENTO
+================================================================================
+
+2019 - Primeiro aborto espontâneo
+       8 semanas. Sem investigação
+
+05/2020 - Trombose Venosa Profunda MID
+          Durante uso de ACO. Anticoagulação 6 meses
+
+2021 - Segundo aborto espontâneo
+       10 semanas. Investigação inconclusiva
+
+02/2025 - INÍCIO DOS SINTOMAS
+          Fadiga, artralgias, febre baixa
+
+06/2025 - Rash malar
+          Lesão em "asa de borboleta"
+
+08/2025 - Piora clínica
+          Queda capilar, úlceras orais, Raynaud
+
+10/10/2025 - Exames laboratoriais
+             FAN 1:1280, anti-dsDNA elevado, C3 baixo
+
+12/10/2025 - Exames complementares
+             Proteinúria, hematúria, anticorpos + SAF
+
+17/10/2025 - CONSULTA ATUAL - Reumatologia
+             Diagnóstico LES + SAF
+             Iniciado tratamento
+
+25/10/2025 - Biópsia renal programada
+             Estadiamento nefrite lúpica
+
+================================================================================
+                      PLANO DE ACOMPANHAMENTO
+================================================================================
+
+MONITORIZAÇÃO CLÍNICA E LABORATORIAL:
+
+QUINZENAL (1º mês):
+✓ Hemograma, função renal, urina I, VHS, PCR
+
+MENSAL (primeiros 3 meses):
+✓ Hemograma completo
+✓ Função renal e hepática
+✓ Urina I, proteinúria 24h
+✓ Complemento (C3, C4)
+✓ Anti-dsDNA
+✓ INR (ajuste varfarina)
+
+TRIMESTRAL (após estabilização):
+✓ Hemograma
+✓ Função renal
+✓ Urina I
+✓ Complemento
+✓ Anti-dsDNA
+
+SEMESTRAL:
+✓ Perfil lipídico
+✓ Glicemia
+✓ Densitometria óssea
+✓ Fundoscopia
+
+ANUAL:
+✓ Avaliação cardiovascular completa
+✓ Rastreio aterosclerose precoce
+
+METAS TERAPÊUTICAS:
+
+✓ Remissão clínica (SLEDAI = 0 ou ≤ 2)
+✓ Normalização de marcadores
+✓ Redução corticoide < 5 mg/dia
+✓ Preservação função renal
+✓ Prevenção tromboses (INR terapêutico)
+✓ Qualidade de vida
+
+SINAIS DE ALERTA - PROCURAR ATENDIMENTO IMEDIATO:
+
+⚠️ Febre > 38°C persistente
+⚠️ Cefaleia intensa súbita, convulsões
+⚠️ Dor torácica, dispneia
+⚠️ Edema MMII súbito ou piora função renal
+⚠️ Hematúria macroscópica
+⚠️ Sangramentos anormais
+⚠️ Dor/edema/vermelhidão em membros
+⚠️ Alterações visuais súbitas
+
+CONSULTAS PROGRAMADAS:
+
+✓ 15 dias: Reavaliação clínica, exames, ajuste doses
+✓ 30 dias: Resultado biópsia renal
+✓ 45 dias: Fundoscopia basal
+✓ 60 dias: Reavaliação atividade doença
+✓ 90 dias: Repetir anticorpos (confirmar SAF)
+✓ Seguimento: Mensal 6 meses, depois trimestral
+
+ENCAMINHAMENTOS:
+
+✓ Nefrologia - Nefrite lúpica
+✓ Hematologia - SAF e anticoagulação
+✓ Dermatologia - Lesões cutâneas
+✓ Psicologia/Psiquiatria - Suporte emocional
+✓ Nutrição - Orientação dietética
+✓ Obstetrícia alto risco - Quando desejo gestacional
+
+================================================================================
+
+Médica Responsável: Dra. Juliana Costa Pereira
+CRM-MG 234.567
+Reumatologia - RQE 67890
+Título de Especialista pela SBR
+
+Data: 17/10/2025

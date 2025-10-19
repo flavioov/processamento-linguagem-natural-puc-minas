@@ -9,3 +9,5 @@ langchain-ollama
 pypdf
 sentence_transformers
 ipython
+python-dotenv
+requests
