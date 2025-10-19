@@ -47,9 +47,7 @@ def ollama_call(state: dict):
             llm_with_tools.invoke(
                 [
                     SystemMessage(
-                        content="Você é um assistente médico especializado em anamnese. "
-                                "Você responde perguntas com base nos documentos disponíveis "
-                                "e fornece informações claras e precisas."
+                        content=config.SYSTEM_MESSAGE
                     )
                 ]
                 + state["messages"]

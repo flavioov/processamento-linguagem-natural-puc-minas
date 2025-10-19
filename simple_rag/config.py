@@ -41,6 +41,8 @@ class Config:
     LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
     LOG_FILE = os.getenv("LOG_FILE")
 
+    SYSTEM_MESSAGE = os.getenv("SYSTEM_MESSAGE", "Você é um assistente que traz respostas concisas."
+                                                 "")
     @classmethod
     def validate(cls):
         """Valida as configurações."""

@@ -1,7 +1,8 @@
 """
 Interface de linha de comando para o Simple RAG.
 """
-from langchain_core.messages import HumanMessage, AIMessage
+from langchain.chains.question_answering.map_reduce_prompt import messages
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
 from simple_rag.agents.llm import create_agent
 from simple_rag.logger import setup_logger
