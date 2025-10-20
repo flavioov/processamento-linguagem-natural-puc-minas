@@ -12,7 +12,7 @@ from simple_rag.logger import setup_logger
 logger = setup_logger(__name__)
 
 # Inicializar vectorstore globalmente (lazy loading)
-_vectorstore = None
+_vectorstore = get_vectorstore()
 
 def _get_vectorstore():
     """Retorna vectorstore (singleton)."""
