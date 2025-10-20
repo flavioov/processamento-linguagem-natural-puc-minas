@@ -34,7 +34,7 @@ class Config:
     CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "200"))
 
     # Retrieval
-    RETRIEVAL_K = int(os.getenv("RETRIEVAL_K", "5"))
+    RETRIEVAL_K = int(os.getenv("RETRIEVAL_K", "2"))
     RETRIEVAL_TYPE = os.getenv("RETRIEVAL_TYPE", "similarity")
 
     # Logging

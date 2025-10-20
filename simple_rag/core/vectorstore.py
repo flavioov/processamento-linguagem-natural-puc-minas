@@ -66,4 +66,5 @@ if __name__ == "__main__":
         for i, doc in enumerate(results, 1):
             print(f"\n--- Resultado {i} ---")
             print(f"Source: {doc.metadata.get('source', 'unknown')}")
-            print(f"Content: {doc.page_content[:200]}...")
+            print(f"Content: {doc.page_content}...")
+            print(f"\n--- Resultado {i} ---\n")
