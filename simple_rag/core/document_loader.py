@@ -1,8 +1,7 @@
-"""
-Carregamento de documentos de várias fontes.
-"""
+"""Carregamento de documentos de várias fontes."""
+
 import pathlib
-from typing import List
+
 from langchain_community.document_loaders import TextLoader
 from langchain_core.documents import Document
 
@@ -11,13 +10,13 @@ from simple_rag.logger import setup_logger
 
 logger = setup_logger(__name__)
 
-def load_documents(data_dir: pathlib.Path = None) -> List[Document]:
-    """
-    Carrega todos os arquivos .txt recursivamente de um diretório.
+
+def load_documents(data_dir: pathlib.Path | None = None) -> list[Document]:
+    """Carrega todos os arquivos .txt recursivamente de um diretório.
 
     Args:
         data_dir: Diretório contendo os documentos.
-                  Se None, usa config.DATA_DIR
+                  Se None, usa config.get_data_dir()
 
     Returns:
         Lista de documentos carregados
@@ -25,7 +24,7 @@ def load_documents(data_dir: pathlib.Path = None) -> List[Document]:
     Raises:
         FileNotFoundError: Se o diretório não existe
     """
-    path = data_dir or config.DATA_DIR
+    path = data_dir or config.get_data_dir()
 
     if not path.exists():
         raise FileNotFoundError(f"Diretório não encontrado: {path}")
@@ -37,7 +36,7 @@ def load_documents(data_dir: pathlib.Path = None) -> List[Document]:
 
     logger.info(f"Encontrados {len(all_paths)} arquivos .txt")
 
-    all_docs: List[Document] = []
+    all_docs: list[Document] = []
     errors = []
 
     for file_path in all_paths:
@@ -56,6 +55,7 @@ def load_documents(data_dir: pathlib.Path = None) -> List[Document]:
     logger.info(f"Total de documentos carregados: {len(all_docs)}")
 
     return all_docs
+
 
 if __name__ == "__main__":
     docs = load_documents()

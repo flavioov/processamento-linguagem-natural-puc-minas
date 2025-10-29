@@ -1,25 +1,29 @@
-"""
-Agente baseado em Ollama e LangGraph.
-"""
+"""Agente baseado em Ollama e LangGraph."""
+
 import operator
-from typing import Literal, List
-from typing_extensions import TypedDict, Annotated
+from typing import Annotated, Literal, TypedDict
 
+from langchain_core.messages import (
+    AIMessage,
+    AnyMessage,
+    HumanMessage,
+    SystemMessage,
+    ToolMessage,
+)
 from langchain_ollama import ChatOllama
-from langchain_core.messages import AnyMessage, HumanMessage, SystemMessage, ToolMessage, AIMessage
-from langgraph.graph import StateGraph, START, END
+from langgraph.graph import END, START, StateGraph
 
-from simple_rag.tools import add, multiply, retriever
 from simple_rag.config import config
 from simple_rag.logger import setup_logger
+from simple_rag.tools import add, multiply, retriever
 
 logger = setup_logger(__name__)
 
 # Configuração do LLM
 llm = ChatOllama(
-    model=config.OLLAMA_MODEL,
-    temperature=config.OLLAMA_TEMPERATURE,
-    base_url=config.OLLAMA_BASE_URL
+    model=config.ollama_model,
+    temperature=config.ollama_temperature,
+    base_url=config.ollama_base_url,
 )
 
 # Ferramentas disponíveis
@@ -27,14 +31,16 @@ tools = [add, multiply, retriever]
 tools_by_name = {tool.name: tool for tool in tools}
 llm_with_tools = llm.bind_tools(tools)
 
+
 class MessagesState(TypedDict):
     """Estado das mensagens do agente."""
-    messages: Annotated[List[AnyMessage], operator.add]
+
+    messages: Annotated[list[AnyMessage], operator.add]
     llm_calls: int
 
-def ollama_call(state: dict):
-    """
-    LLM decide se deve chamar uma ferramenta ou não.
+
+def ollama_call(state: MessagesState):
+    """LLM decide se deve chamar uma ferramenta ou não.
 
     Args:
         state: Estado atual com mensagens
@@ -42,23 +48,18 @@ def ollama_call(state: dict):
     Returns:
         Novo estado com resposta do LLM
     """
+    messages: list[AnyMessage] = [
+        SystemMessage(content=config.system_message),
+        *state["messages"],
+    ]
     return {
-        "messages": [
-            llm_with_tools.invoke(
-                [
-                    SystemMessage(
-                        content=config.SYSTEM_MESSAGE
-                    )
-                ]
-                + state["messages"]
-            )
-        ],
-        "llm_calls": state.get("llm_calls", 0) + 1
+        "messages": [llm_with_tools.invoke(messages)],
+        "llm_calls": state.get("llm_calls", 0) + 1,
     }
 
-def tool_node(state: dict):
-    """
-    Executa as ferramentas chamadas pelo LLM.
+
+def tool_node(state: MessagesState):
+    """Executa as ferramentas chamadas pelo LLM.
 
     Args:
         state: Estado atual com tool calls
@@ -67,16 +68,20 @@ def tool_node(state: dict):
         Novo estado com resultados das ferramentas
     """
     result = []
-    for tool_call in state["messages"][-1].tool_calls:
-        tool = tools_by_name[tool_call["name"]]
-        logger.debug(f"Executando ferramenta: {tool_call['name']}")
-        observation = tool.invoke(tool_call["args"])
-        result.append(ToolMessage(content=str(observation), tool_call_id=tool_call["id"]))
+    last_message = state["messages"][-1]
+    if isinstance(last_message, AIMessage) and last_message.tool_calls:
+        for tool_call in last_message.tool_calls:
+            tool = tools_by_name[tool_call["name"]]
+            logger.debug(f"Executando ferramenta: {tool_call['name']}")
+            observation = tool.invoke(tool_call["args"])
+            result.append(
+                ToolMessage(content=str(observation), tool_call_id=tool_call["id"])
+            )
     return {"messages": result}
 
-def should_continue(state: MessagesState) -> Literal['tool_node', END]:
-    """
-    Decide se deve continuar o loop ou parar.
+
+def should_continue(state: MessagesState) -> Literal["tool_node", "__end__"]:
+    """Decide se deve continuar o loop ou parar.
 
     Args:
         state: Estado atual
@@ -88,15 +93,15 @@ def should_continue(state: MessagesState) -> Literal['tool_node', END]:
     last_message = messages[-1]
 
     # Se a LLM faz uma chamada para a tool, então executa a ação
-    if last_message.tool_calls:
+    if isinstance(last_message, AIMessage) and last_message.tool_calls:
         return "tool_node"
 
     # Se não, para e responde ao usuário
-    return END
+    return "__end__"
+
 
 def create_agent():
-    """
-    Cria e compila o agente médico.
+    """Cria e compila o agente médico.
 
     Returns:
         Agente compilado
@@ -109,15 +114,14 @@ def create_agent():
     agent_builder.add_node("tool_node", tool_node)
     agent_builder.add_edge(START, "ollama_call")
     agent_builder.add_conditional_edges(
-        "ollama_call",
-        should_continue,
-        ["tool_node", END]
+        "ollama_call", should_continue, ["tool_node", END]
     )
     agent_builder.add_edge("tool_node", "ollama_call")
 
     logger.info("✓ Agente criado com sucesso")
 
     return agent_builder.compile()
+
 
 if __name__ == "__main__":
     agent = create_agent()

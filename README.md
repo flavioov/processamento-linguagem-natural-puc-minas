@@ -1,21 +1,58 @@
 # Simple RAG - Sistema de Recuperação e Geração Aumentada
 
-Sistema de RAG (Retrieval-Augmented Generation) que utiliza LangChain, Ollama e LangGraph para criar um agente conversacional com acesso a documentos médicos.
+Sistema de RAG (Retrieval-Augmented Generation) que utiliza LangChain, Ollama e LangGraph para criar um agente
+conversacional com acesso a documentos médicos.
+
+## TL;DR
+
+```shell
+# python 3.13
+poetry install
+poetry run python -m simple_rag.core.vectorstore
+
+poetry run python -m simple_rag.cli
+```
 
 ## Descrição
 
 Este projeto implementa um agente de IA que combina:
+
 - **Retrieval**: Busca semântica em documentos usando embeddings
 - **Generation**: Geração de respostas usando LLM (Llama 3.1)
 - **Tools**: Ferramentas customizadas (calculadora e recuperação de documentos)
 
-O agente atua como um assistente médico, respondendo perguntas com base em documentos de anamnese armazenados localmente.
+O agente atua como um assistente médico, respondendo perguntas com base em documentos de anamnese armazenados
+localmente.
 
 ## Pré-requisitos
 
-- Python 3.8+
+- **Python 3.13+** (requerido)
 - Ollama instalado e rodando (com modelo `llama3.1:8b`)
 - Servidor Ollama acessível (padrão: `http://localhost:11434`)
+
+### Instalando Python 3.13
+
+#### Linux (Ubuntu/Debian)
+
+```bash
+# Via deadsnakes PPA
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.13 python3.13-venv python3.13-dev
+```
+
+#### macOS
+
+```bash
+# Via Homebrew
+brew install python@3.13
+```
+
+#### Windows
+
+1. Baixe o instalador em: https://www.python.org/downloads/
+2. Execute o instalador e marque "Add Python to PATH"
+3. Verifique a instalação: `python --version`
 
 ### Instalar Ollama
 
@@ -26,6 +63,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 Ou manualmente:
+
 ```bash
 # Download do binário
 curl -L https://ollama.com/download/ollama-linux-amd64 -o ollama
@@ -71,6 +109,7 @@ ollama pull llama3.1:8b ou llama3.2:3b
 ```
 
 Verifique se o modelo foi baixado:
+
 ```bash
 ollama list
 ```
@@ -84,22 +123,55 @@ git clone <url-do-repositorio>
 cd processamento-linguagem-natural-puc-minas
 ```
 
-### 2. Crie um ambiente virtual (recomendado)
+### 2. Instale o Poetry
+
+O Poetry é o gerenciador de dependências usado neste projeto.
+
+#### Linux/macOS/Windows (WSL)
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# ou
-venv\Scripts\activate     # Windows
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-### 3. Instale as dependências
+#### Windows (PowerShell)
+
+```powershell
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+```
+
+Adicione o Poetry ao PATH conforme instruções exibidas após a instalação.
+
+Verifique a instalação:
 
 ```bash
-pip install -r requirements.txt
+poetry --version
 ```
 
-### 4. Configure as variáveis de ambiente
+### 3. Configure o Poetry para usar Python 3.13
+
+```bash
+# Configure o Poetry para criar o ambiente virtual no diretório do projeto (opcional)
+poetry config virtualenvs.in-project true
+
+# Especifique o Python 3.13
+poetry env use python3.13
+```
+
+### 4. Instale as dependências
+
+```bash
+# Instalar apenas dependências de produção
+poetry install --without dev
+
+# Ou instalar todas as dependências (incluindo desenvolvimento)
+poetry install --with dev
+
+# Nota: Com o formato PEP 621 atual, as dependências de desenvolvimento
+# estão em [project.optional-dependencies] e podem ser instaladas com:
+pip install -e ".[dev]"
+```
+
+### 5. Configure as variáveis de ambiente
 
 ```bash
 # Copie o arquivo de exemplo
@@ -110,6 +182,7 @@ cp .env.example .env
 ```
 
 Principais variáveis no `.env`:
+
 ```env
 OLLAMA_BASE_URL=http://localhost:11434
 OLLAMA_MODEL=llama3.1:8b
@@ -124,8 +197,9 @@ LOG_LEVEL=INFO
 ```
 processamento-linguagem-natural-puc-minas/
 ├── README.md
-├── requirements.txt
-├── requirements-dev.txt      # Dependências de desenvolvimento
+├── pyproject.toml            # Configuração Poetry e ferramentas
+├── poetry.lock               # Lock file das dependências
+├── requirements.txt          # (Mantido para compatibilidade)
 ├── .env.example              # Exemplo de configuração
 ├── .gitignore
 │
@@ -166,10 +240,19 @@ processamento-linguagem-natural-puc-minas/
 ### Executar a Aplicação (Modo Principal)
 
 ```bash
+# Usando Poetry (recomendado)
+poetry run python -m simple_rag.cli
+
+# Ou ative o ambiente virtual do Poetry primeiro
+poetry shell
 python -m simple_rag.cli
+
+# Ou use o comando direto (se configurado)
+poetry run simple-rag
 ```
 
 **Exemplo de interação:**
+
 ```
 ============================================================
 Simple RAG - Assistente Médico
@@ -188,18 +271,33 @@ Até logo!
 
 ### Testar Módulos Individuais
 
+**Importante:** Use `poetry run` ou ative o ambiente virtual primeiro para garantir que as dependências corretas sejam
+carregadas.
+
 **Carregar e processar documentos:**
+
 ```bash
-python -m simple_rag.core.document_loader
+poetry run python -m simple_rag.core.document_loader
 ```
 
 **Testar vector store:**
+
 ```bash
-python -m simple_rag.core.vectorstore
+poetry run python -m simple_rag.core.vectorstore
 ```
 
 **Testar agente:**
+
 ```bash
+poetry run python -m simple_rag.agents.medical_agent
+```
+
+**Alternativa (ativando o shell primeiro):**
+
+```bash
+poetry shell
+python -m simple_rag.core.document_loader
+python -m simple_rag.core.vectorstore
 python -m simple_rag.agents.medical_agent
 ```
 
@@ -218,8 +316,8 @@ O agente possui três ferramentas:
 ```mermaid
 graph LR
     START --> ollama_call
-    ollama_call --> |tool_call| tool_node
-    ollama_call --> |no_tool| END
+    ollama_call -->|tool_call| tool_node
+    ollama_call -->|no_tool| END
     tool_node --> ollama_call
 ```
 
@@ -259,16 +357,19 @@ LOG_FILE=./logs/app.log
 ### Cenários Comuns de Configuração
 
 **Ollama rodando localmente (mesma máquina):**
+
 ```env
 OLLAMA_BASE_URL=http://localhost:11434
 ```
 
 **Ollama rodando em outra máquina na rede:**
+
 ```env
 OLLAMA_BASE_URL=http://192.168.1.100:11434
 ```
 
 **Ollama rodando em container Docker:**
+
 ```env
 OLLAMA_BASE_URL=http://host.docker.internal:11434  # Windows/Mac
 # ou
@@ -276,6 +377,7 @@ OLLAMA_BASE_URL=http://172.17.0.1:11434  # Linux
 ```
 
 **Testar conexão com Ollama:**
+
 ```bash
 curl http://localhost:11434/api/version
 ```
@@ -293,6 +395,7 @@ OLLAMA_MODEL=gemma2:9b    # Modelo do Google
 ```
 
 Certifique-se de baixar o modelo antes:
+
 ```bash
 ollama pull <nome-do-modelo>
 ```
@@ -335,17 +438,37 @@ CHUNK_OVERLAP=200    # Overlap entre chunks
 
 ## Troubleshooting
 
+### Erro: ImportError ou problemas com dependências
+
+Se você encontrar erros como `ImportError: cannot import name '_imaging' from 'PIL'` ou
+`Could not import sentence_transformers`, certifique-se de usar o ambiente virtual do Poetry:
+
+```bash
+# SEMPRE use poetry run ou ative o shell do Poetry
+poetry run python -m simple_rag.cli
+
+# Ou ative o shell primeiro
+poetry shell
+python -m simple_rag.cli
+```
+
+**Problema:** Executar `python -m simple_rag.cli` diretamente pode usar o Python do sistema ao invés do ambiente
+virtual, causando conflitos de dependências.
+
+**Solução:** Use `poetry run` ou ative o shell com `poetry shell` primeiro.
+
 ### Erro: ModuleNotFoundError
 
 ```bash
 # Execute a partir do diretório raiz
 cd processamento-linguagem-natural-puc-minas
-python -m simple_rag.cli
+poetry run python -m simple_rag.cli
 ```
 
 ### Erro de conexão com Ollama
 
 Verifique se:
+
 1. O servidor Ollama está rodando: `ollama serve`
 2. O endereço está correto no `.env`
 3. O modelo está baixado: `ollama list`
@@ -371,6 +494,7 @@ ollama pull llama3.1:8b
 ### Diretório de dados não encontrado
 
 Verifique o `.env`:
+
 ```env
 DATA_DIR=./data/anamnese  # Caminho correto
 ```
@@ -379,6 +503,7 @@ DATA_DIR=./data/anamnese  # Caminho correto
 
 ```python
 from simple_rag.config import config
+
 try:
     config.validate()
     print("✓ Configuração válida!")
@@ -421,39 +546,111 @@ LOG_LEVEL=WARNING  # Apenas avisos e erros
 
 ## Desenvolvimento
 
+Este projeto utiliza **Python 3.13** e aproveita suas novas funcionalidades:
+
+### Recursos do Python 3.13 utilizados
+
+- **Better error messages** - Mensagens de erro mais claras e precisas
+- **Improved typing** - Melhor suporte para type hints
+- **Performance improvements** - ~15% mais rápido que Python 3.12
+- **New REPL** - Interface interativa melhorada
+
+### Ferramentas de desenvolvimento
+
 Para desenvolvimento, instale as dependências adicionais:
 
 ```bash
-pip install -r requirements-dev.txt
+# Usando Poetry - instalar todas as dependências incluindo dev
+poetry install --with dev
+
+# Ou usando pip com dependências opcionais
+pip install -e ".[dev]"
 ```
 
 Ferramentas incluídas:
+
 - `pytest` - Testes automatizados
-- `black` - Formatação de código
-- `ruff` - Linting
-- `mypy` - Type checking
-- `ipython` - Shell interativo
+- `black` - Formatação de código (configurado para Python 3.13)
+- `ruff` - Linting ultra-rápido (target: py313)
+- `mypy` - Type checking (python_version = 3.13)
+- `pydocstring` - Validação de docstrings
+
+### Git Hooks
+
+O projeto possui um pre-commit hook que executa automaticamente:
+
+1. **Black** - Formatação de código
+2. **Ruff** - Linting e correções automáticas
+3. **Mypy** - Type checking
+4. **Pydocstring** - Validação de docstrings
+
+O hook é executado automaticamente antes de cada commit.
 
 Consulte [docs/desenvolvimento.md](./docs/desenvolvimento.md) para mais detalhes.
 
 ## Comandos Úteis
 
+### Gerenciamento de Dependências com Poetry
+
+```bash
+# Adicionar nova dependência de produção
+poetry add <package>
+
+# Adicionar dependência de desenvolvimento
+poetry add --group dev <package>
+
+# Atualizar dependências
+poetry update
+
+# Ver dependências instaladas
+poetry show
+
+# Ver dependências desatualizadas
+poetry show --outdated
+
+# Remover dependência
+poetry remove <package>
+```
+
+### Executar Aplicação
+
 ```bash
 # Executar aplicação
+poetry run python -m simple_rag.cli
+
+# Ou ativar ambiente virtual primeiro
+poetry shell
 python -m simple_rag.cli
 
 # Testar módulos individuais
-python -m simple_rag.core.vectorstore
-python -m simple_rag.agents.medical_agent
+poetry run python -m simple_rag.core.vectorstore
+poetry run python -m simple_rag.agents.medical_agent
 
 # Verificar configuração
-python -c "from simple_rag.config import config; print(f'Modelo: {config.OLLAMA_MODEL}')"
+poetry run python -c "from simple_rag.config import config; print(f'Modelo: {config.OLLAMA_MODEL}')"
+```
 
-# Formatar código (dev)
-black simple_rag/
+### Ferramentas de Desenvolvimento
 
-# Linting (dev)
-ruff check simple_rag/
+```bash
+# Formatar código
+poetry run black simple_rag/
+
+# Linting
+poetry run ruff check simple_rag/
+
+# Linting com auto-fix
+poetry run ruff check --fix simple_rag/
+
+# Type checking
+poetry run mypy simple_rag/
+
+# Executar testes
+poetry run pytest
+
+# Executar testes com coverage
+poetry run coverage run -m pytest
+poetry run coverage report
 ```
 
 ## Licença

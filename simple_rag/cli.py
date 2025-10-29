@@ -1,21 +1,20 @@
-"""
-Interface de linha de comando para o Simple RAG.
-"""
-from langchain.chains.question_answering.map_reduce_prompt import messages
-from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
+"""Interface de linha de comando para o Simple RAG."""
+
+from langchain_core.messages import AIMessage, HumanMessage
 
 from simple_rag.agents.llm import create_agent
-from simple_rag.logger import setup_logger
 from simple_rag.config import config
+from simple_rag.logger import setup_logger
 
 logger = setup_logger(__name__)
+
 
 def main():
     """Ponto de entrada principal."""
     logger.info("=" * 60)
     logger.info("Simple RAG - Assistente")
-    logger.info(f"Modelo: {config.OLLAMA_MODEL}")
-    logger.info(f"Ollama URL: {config.OLLAMA_BASE_URL}")
+    logger.info(f"Modelo: {config.ollama_model}")
+    logger.info(f"Ollama URL: {config.ollama_base_url}")
     logger.info("=" * 60)
 
     try:
@@ -25,7 +24,9 @@ def main():
         logger.error("Verifique se o Ollama esta rodando e o modelo esta disponovel")
         print("\nL Erro ao inicializar o agente.")
         print("   Verifique se o Ollama esta rodando: ollama serve")
-        print(f"   Verifique se o modelo esta disponivel: ollama pull {config.OLLAMA_MODEL}")
+        print(
+            f"   Verifique se o modelo esta disponivel: ollama pull {config.ollama_model}"
+        )
         return
 
     print("\n" + "=" * 60)
@@ -37,7 +38,7 @@ def main():
         try:
             user_input = input("Voce: ")
 
-            if user_input.lower() in ['exit', 'quit', 'sair']:
+            if user_input.lower() in ["exit", "quit", "sair"]:
                 logger.info("Encerrando...")
                 print("\nAte logo!")
                 break
@@ -61,6 +62,7 @@ def main():
         except Exception as e:
             logger.error(f"Erro ao processar mensagem: {e}", exc_info=True)
             print(f"\nL Erro: {e}\n")
+
 
 if __name__ == "__main__":
     main()

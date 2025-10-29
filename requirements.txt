@@ -1,4 +1,6 @@
 typing-extensions
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
 langchain
 langchain_huggingface
 langchain_core
@@ -11,3 +13,8 @@ sentence_transformers
 ipython
 python-dotenv
 requests
+black
+mypy
+pydocstring
+ruff
+sentence-transformers

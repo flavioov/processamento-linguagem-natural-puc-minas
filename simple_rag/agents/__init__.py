@@ -1,6 +1,5 @@
-"""
-Agentes do sistema.
-"""
-from simple_rag.agents.llm import create_agent, MessagesState
+"""Agentes do sistema."""
 
-__all__ = ["create_agent", "MessagesState"]
+from simple_rag.agents.llm import MessagesState, create_agent
+
+__all__ = ["MessagesState", "create_agent"]
