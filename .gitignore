@@ -1,10 +1,9 @@
 *.log
 logs/
-.idea
-./chromadb
-./chromadb_notebook/
+.idea/
+chromadb/
+chromadb_notebook/
 .sqlite3
-.idea
 .claude
 # Byte-compiled / optimized / DLL files
 __pycache__/
