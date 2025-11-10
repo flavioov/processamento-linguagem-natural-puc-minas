@@ -1,6 +1,7 @@
 # Simple RAG - Sistema de Recuperação e Geração Aumentada
 
-Sistema de RAG (Retrieval-Augmented Generation) que utiliza LangChain, Ollama e LangGraph para criar um agente conversacional com acesso seguro a documentos médicos, incluindo mascaramento automático de dados pessoais.
+Sistema de RAG (Retrieval-Augmented Generation) que utiliza LangChain, Ollama e LangGraph para criar um agente
+conversacional com acesso seguro a documentos médicos, incluindo mascaramento automático de dados pessoais.
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![Poetry](https://img.shields.io/badge/dependency-poetry-blue)](https://python-poetry.org/)
@@ -11,9 +12,9 @@ Sistema de RAG (Retrieval-Augmented Generation) que utiliza LangChain, Ollama e 
 ## 📚 Documentação
 
 - **[docs/](./docs/)** - Documentação completa e detalhada
-  - [Arquitetura do Sistema](./docs/arquitetura.md)
-  - [Guia do Notebook](./docs/notebook.md)
-  - [Mascaramento de Dados](./docs/mascaramento-guia-rapido.md)
+    - [Arquitetura do Sistema](./docs/arquitetura.md)
+    - [Guia do Notebook](./docs/notebook.md)
+    - [Mascaramento de Dados](./docs/mascaramento-guia-rapido.md)
 - **[examples/](./examples/)** - Exemplos práticos de uso
 
 ---
@@ -54,28 +55,29 @@ Este sistema implementa um agente de IA para análise de documentos médicos com
 ```mermaid
 flowchart TD
     A[📄 Documentos Médicos] --> B[🔒 Mascaramento de PII]
-    B --> C[✂️ Chunking]
-    C --> D[🧮 Embeddings]
-    D --> E[(🗄️ VectorStore ChromaDB)]
+B --> C[✂️ Chunking]
+C --> D[🧮 Embeddings]
+D --> E[(🗄️ VectorStore ChromaDB)]
 
-    F[👤 Query do Usuário] --> G[🤖 LLM Ollama]
-    G -->|Precisa Contexto?| H[🔍 Retriever Tool]
-    H --> E
-    E -->|Documentos Relevantes| H
-    H --> G
-    G -->|Usa Calculadora?| I[🔢 Calculator Tools]
-    I --> G
-    G --> J[💬 Resposta Estruturada]
+F[👤 Query do Usuário] --> G[🤖 LLM Ollama]
+G -->|Precisa Contexto?|H[🔍 Retriever Tool]
+H --> E
+E -->|Documentos Relevantes|H
+H --> G
+G -->|Usa Calculadora?| I[🔢 Calculator Tools]
+I --> G
+G --> J[💬 Resposta Estruturada]
 
-    style B fill:#ff6b6b
-    style E fill:#4ecdc4
-    style G fill:#95e1d3
-    style J fill:#f7dc6f
+style B fill: #ff6b6b
+style E fill: #4ecdc4
+style G fill: #95e1d3
+style J fill: #f7dc6f
 ```
 
 ### Fluxo de Processamento
 
 **1. Indexação (Offline):**
+
 - 📄 Documentos são carregados do diretório `data/anamnese/`
 - 🔒 Dados sensíveis são mascarados (Nome, CPF, RG, etc.)
 - ✂️ Textos são divididos em chunks
@@ -83,6 +85,7 @@ flowchart TD
 - 🗄️ Chunks armazenados no ChromaDB
 
 **2. Consulta (Online):**
+
 - 👤 Usuário faz uma pergunta
 - 🤖 LLM analisa e decide quais ferramentas usar
 - 🔍 Retriever busca documentos relevantes
@@ -104,6 +107,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python3.13 python3.13-venv python3.13-dev
 ```
+
 </details>
 
 <details>
@@ -112,6 +116,7 @@ sudo apt install python3.13 python3.13-venv python3.13-dev
 ```bash
 brew install python@3.13
 ```
+
 </details>
 
 <details>
@@ -130,6 +135,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama serve
 ollama pull llama3.1:8b
 ```
+
 </details>
 
 <details>
@@ -138,9 +144,11 @@ ollama pull llama3.1:8b
 Baixe o instalador em [ollama.com](https://ollama.com/download)
 
 Após instalar:
+
 ```bash
 ollama pull llama3.1:8b
 ```
+
 </details>
 
 ### 3. Instalar Dependências do Projeto
@@ -170,6 +178,7 @@ nano .env
 ```
 
 **.env exemplo:**
+
 ```env
 OLLAMA_BASE_URL=http://localhost:11434
 OLLAMA_MODEL=llama3.1:8b
@@ -194,6 +203,7 @@ python -m simple_rag.main
 ```
 
 **Exemplo de interação:**
+
 ```
 ============================================================
 Simple RAG - Assistente Médico
@@ -235,14 +245,14 @@ jupyter notebook rag.ipynb
 
 O sistema inclui proteção automática de dados sensíveis:
 
-| Tipo | Exemplo Original | Exemplo Mascarado |
-|------|------------------|-------------------|
-| **Nome** | `Nome: João da Silva` | `Nome: J*** da S****` |
-| **Data Nasc.** | `15/03/1953` | `**/**/****` |
-| **CPF** | `123.456.789-00` | `123.***.***-00` |
-| **RG** | `12.345.678-9` | `12.***.***-9` |
-| **Email** | `user@email.com` | `user@email.com` |
-| **Telefone** | `(11) 98765-4321` | `(**) *****-4321` |
+| Tipo           | Exemplo Original      | Exemplo Mascarado     |
+|----------------|-----------------------|-----------------------|
+| **Nome**       | `Nome: João da Silva` | `Nome: J*** da S****` |
+| **Data Nasc.** | `15/03/1953`          | `**/**/****`          |
+| **CPF**        | `123.456.789-00`      | `123.***.***-00`      |
+| **RG**         | `12.345.678-9`        | `12.***.***-9`        |
+| **Email**      | `user@email.com`      | `user@email.com`      |
+| **Telefone**   | `(11) 98765-4321`     | `(**) *****-4321`     |
 
 ### Uso Rápido
 
@@ -269,16 +279,19 @@ print(masked)
 ### Cenários Comuns
 
 **Ollama Local:**
+
 ```env
 OLLAMA_BASE_URL=http://localhost:11434
 ```
 
 **Ollama em Rede:**
+
 ```env
 OLLAMA_BASE_URL=http://192.168.1.100:11434
 ```
 
 **Modelo Alternativo:**
+
 ```env
 OLLAMA_MODEL=llama3.2:3b  # Mais rápido
 OLLAMA_MODEL=mistral:7b   # Alternativa
@@ -433,33 +446,3 @@ poetry run pytest
 - **python-dotenv** - Gerenciamento de .env
 
 ---
-
-## 📄 Licença
-
-[Especifique a licença do projeto]
-
----
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Por favor:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
----
-
-## 💬 Suporte
-
-- 📖 Consulte a [documentação completa](./docs/)
-- 🐛 Abra uma [issue](https://github.com/seu-usuario/seu-repo/issues)
-- 💡 Veja os [exemplos práticos](./examples/)
-
----
-
-**Versão:** 1.2.0
-**Python:** 3.13+
-**Última atualização:** 2025-11-09
