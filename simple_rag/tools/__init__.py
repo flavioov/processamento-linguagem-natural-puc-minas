@@ -1,7 +1,6 @@
-"""
-Ferramentas disponíveis para os agentes.
-"""
-from simple_rag.tools.calculator import add, multiply
-from simple_rag.tools.retriever import retriever
+"""Ferramentas disponíveis para os agentes."""
 
-__all__ = ["add", "multiply", "retriever"]
+from simple_rag.tools.calculator import add, multiply
+from simple_rag.tools.retriever import retrieve_context
+
+__all__ = ["add", "multiply", "retrieve_context"]

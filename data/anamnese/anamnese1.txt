@@ -1,0 +1,103 @@
+Anamnese Médica — Caso Clínico João Gabriel.
+
+## Identificação do paciente
+- Nome: João Gabriel
+- Idade: 72 anos
+- RG: 12.345.678-9 SSP/SP
+- CPF: 123.456.789-00
+- Data de Nascimento: 15/03/1953
+- Prontuário: 0876532
+- Telefone Residencial: (67) 3025-4487
+- Celular: (67) 99845-3321
+- E-mail: joao.gabriel1953@email.com
+
+
+## Queixa Principal (QP)
+- Urina com sangue há 8 dias (hematúria)
+
+## História da Doença Atual (HDA)
+- Paciente com histórico de litíase vesical, submetido à cistolitotomia há 9 meses.
+- Evoluiu no pós-operatório com incontinência urinária e episódios mensais recorrentes de hematúria.
+- Há 8 dias, apresentou novo episódio de hematúria, associado a oligúria e disúria, sem febre.
+- Em seguimento com urologista, foi encaminhado ao HUMAP para formolização da bexiga.
+- No dia seguinte ao procedimento, evoluiu com ascite, sendo necessária cirurgia de urgência (ureterostomia e cateterismo vesical).
+- No momento, encontra-se estável, sem dor, aguardando retorno do trânsito intestinal, em uso de dexametasona e paracetamol.
+
+## Interrogatório Sintomatológico Dirigido aos Aparelhos e Sistemas (ISDAS)
+- Sintomas gerais: astenia há 1 mês; nega perda de peso
+- Pele e fâneros: mancha senil em MMSS; nega prurido e xerodermia
+- Cabeça e pescoço: hipoacusia com zumbido intermitente no ouvido esquerdo; sem disfagia
+- Sistema cardiorrespiratório: nega edema, dispneia, palpitações e tosse
+- Sistema gastrointestinal: constipação há 4 dias durante internação atual
+- Sistema genitourinário: conforme HDA
+- Sistema neuropsiquiátrico: boa memória, sono fracionado ao longo do dia; nega tremores e cefaleia
+- Sistema osteomioarticular: nega dores ou alterações articulares
+- Sistema endócrino: nega alterações
+
+## História Médica Pregressa (HMP)
+- Varicela, caxumba e sarampo na infância
+- Cirurgia de catarata há 20 anos
+- HAS há 10 anos — em uso de metoprolol
+- Câncer de próstata há 9 anos → prostatectomia radical + 36 sessões de radioterapia
+- Hemotransfusões: 2 há 30 dias + 2 na internação atual
+- Alergia à dipirona
+- Vacinas: COVID-19 e influenza
+
+## História Familiar (HFam)
+- Pai faleceu aos 84 anos e mãe aos 81, causas desconhecidas
+- Irmã faleceu aos 66 anos de enfisema pulmonar
+- Filho de 60 anos com HAS
+
+## História Familiar e Social (HFS)
+- Mora com esposa e filho adotivo, casa com saneamento básico
+- Finais de semana no sítio com a família
+- Tabagismo: 180 maços-ano, cessado há 10 anos
+- Etilismo: 1 litro de cachaça/dia, cessado há 10 anos
+- Sem atividade física regular
+- Alimentação equilibrada, rica em frutas
+
+## Exame Físico
+- Estado geral: bom, orientado, hidratado, normocorado, sem lesões de pele
+- Sonda vesical e acesso venoso central presentes
+
+### Sinais Vitais
+- FC: 74 bpm
+- Temp: 35,5 °C
+- SpO₂: 94%
+- FR: 16 irpm
+- PA: 130/80 mmHg
+
+### Dados Antropométricos
+- Altura: 1,68 m
+- Peso: 65 kg
+- IMC: 23,03 kg/m²
+
+### Cabeça e Pescoço
+- Escleras e mucosas anictéricas
+- Pupilas isocóricas e reflexo fotomotor preservado
+- Sem linfonodomegalias
+- Tireoide lisa, móvel e indolor
+- Sem sopros carotídeos
+
+### Sistema Respiratório
+- Tórax plano e simétrico, sem retrações
+- Murmúrio vesicular audível em ápice
+- Percussão e ausculta completas não realizadas (limitação motora)
+
+### Sistema Cardíaco
+- Sem turgência jugular ou frêmitos
+- Bulhas normofonéticas, ritmo regular, dois tempos, sem sopros
+
+### Sistema Abdominal
+- Abdômen plano e flácido, sem abaulamentos
+- RHA presentes nos 4 quadrantes
+- Cicatriz cirúrgica longitudinal esquerda com curativo estéril
+- Transposição de ureter em flanco direito drenando urina clara
+- Palpação e percussão não realizadas (pós-cirúrgico)
+
+### Sistema Vascular
+- Pulsos periféricos fortes, regulares e simétricos
+- Sem edema em MMII
+
+## Observações Finais
+Paciente idoso, múltiplos antecedentes urológicos e cardiovasculares, em recuperação pós-ureterostomia após complicação de formolização vesical, evolução estável.
