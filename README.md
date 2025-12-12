@@ -26,7 +26,10 @@ Sistema de RAG (Retrieval-Augmented Generation) que utiliza LangChain, Ollama e 
 # Instalar dependências
 poetry install
 
-# Iniciar aplicação
+# Opção 1: Interface Web (Recomendado) 🌐
+chainlit run app.py -w
+
+# Opção 2: Interface CLI
 poetry run python -m simple_rag.main
 ```
 
@@ -182,7 +185,30 @@ LOG_LEVEL=INFO
 
 ## 🎮 Como Usar
 
-### Executar Aplicação Principal
+### Interface Web (Chainlit) - Recomendado ✨
+
+Execute a interface web moderna com Chainlit:
+
+```bash
+# Instalar dependências (se ainda não instalou)
+poetry install
+
+# Executar interface web
+chainlit run app.py -w
+```
+
+A aplicação estará disponível em: **http://localhost:8000**
+
+**Recursos da Interface Web:**
+- 🎨 Interface gráfica moderna e intuitiva
+- 💬 Histórico de conversas persistente
+- 🔧 Visualização de ferramentas utilizadas
+- 📱 Responsivo (funciona em desktop e mobile)
+- 🌓 Tema claro e escuro
+
+### Interface CLI (Linha de Comando)
+
+Execute a aplicação via terminal:
 
 ```bash
 # Usando Poetry
@@ -299,6 +325,10 @@ processamento-linguagem-natural-puc-minas/
 ├── README.md                         # Este arquivo
 ├── pyproject.toml                    # Dependências e configuração
 ├── .env                              # Variáveis de ambiente
+│
+├── app.py                            # 🌐 Interface web Chainlit
+├── .chainlit/                        # ⚙️ Configuração do Chainlit
+│   └── config.toml                   # Configurações UI e tema
 │
 ├── docs/                             # 📚 Documentação completa
 │   ├── README.md                     # Índice da documentação
